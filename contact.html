@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Contact Us</title>
+    <style>
+        #contactLogo{
+            height: 100px;
+            width: 100px;
+            margin-left: 20px;
+        }
+
+        .main{
+            font-weight: bolder;
+            color: rgb(104, 172, 2, 54);
+        }
+
+        .data{
+            color: rgb(91, 91, 225);
+        }
+
+        .left-panel{
+            border: 3px solid gray;
+            box-shadow: 2px 3px 2px 3px gray;
+        }
+
+        #contact-pic{
+            width: 400px;
+            height: 200px;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-bg-info text-danger text-center">Contact Details</h1>
+    
+    <div class="contact-container mt-5 d-flex mb-5">
+        
+        <div class="left-panel w-50">
+            <img src="../assets/contactlogo.svg" id="contactLogo">    
+            <ul>
+                <li>
+                    <div class="row">
+                        <div class="col-3"><span class="main">Name</span> :</div>
+                        <div class="col-9"><span class="data">Naresh Technologies</span></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="row">
+                        <div class="col-3"><span class="main">Email</span> :</div>
+                        <div class="col-9"><span class="data">info.nareshit@gmail.com</span></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="row">
+                        <div class="col-3"><span class="main">Phone Number </span> :</div>
+                        <div class="col-9"><span class="data">+977-9812345678</span></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="row">
+                        <div class="col-3"><span class="main">Address</span> :</div>
+                        <div class="col-9"><span class="data">Biratnagar-20,Nepal</span></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="right-panel w-50">
+            <img src="../assets/contact.webp" id="contact-pic" alt="">
+        </div>
+    </div>
+
+    
+    <div class="footer bg-dark mt-5">
+        <h1 class="text-center text-secondary">Naresh IT and Technologies</h1>
+        <div class="row">
+            <div class="col-4 mt-5 ms-3">
+              <h4 class="text-white">Our Social Media</h4>
+  
+             <div class="mt-4 text-info infos">
+              <span class="bi bi-facebook"></span>
+              <a href="www.facebook.com" class="social-link text-decoration-none text-info" >Facebook</a>
+             </div>
+         
+              <div class="mt-2 text-info infos">
+                <span class="bi bi-mailbox-flag"></span>
+              <a href="www.gmail.com" class="social-link text-decoration-none text-info"> Gmail</a>
+              </div>
+  
+              <div class="mt-2 text-info infos">
+                <span class="bi bi-twitter"></span>
+              <a href="www.facebook.com" class="social-link text-decoration-none text-info" >Twitter</a>
+              </div>
+            </div>
+  
+            <div class="col-4 mt-5">
+              <h4 class="text-white">Navigate</h4>
+                <div class="mt-4 infos">
+                  <span class="bi bi-house text-decoration-none text-info"></span>
+                  <a href="index.html" class="text-decoration-none text-info">Home</a>
+                </div>
+  
+                <div class="mt-2">
+                  <span class="bi bi-question-circle text-decoration-none text-info"></span>
+                  <a href="about.html" class="text-decoration-none text-info" id="infos">About</a>
+                </div>
+  
+                <div class="mt-2 infos">
+                  <span class="bi bi-info-square text-decoration-none text-info"></span>
+                  <a href="service.html" class="text-decoration-none text-info">Service</a>
+                </div>
+  
+                
+                <div class="mt-2 infos">
+                  <span class="bi bi-telephone text-decoration-none text-info"></span>
+                  <a href="contact.html" class="text-decoration-none text-info">Contact us</a>
+                </div>
+            </div>
+              
+            <div class="col-3">
+              <h4 class="text-white mt-5">More Information</h4>
+              <div class="mt-4">
+                <p class="text-info">Name : Naresh Yadav</p>
+              </div>
+  
+              <div class="mt-2">
+                <p class="text-info">Email : narestit@gmail.com</p>
+              </div>
+  
+              <div class="mt-2">
+                <p class="text-info">Phone : +9779812345678</p>
+              </div>
+            </div>
+  
+        </div>
+  
+        <div class="review-form text-white ms-5 mt-5">
+          <h3 class="text-light">Feedback</h3>
+         <form>
+          <dt class="text-warning" id="data-term">Your Name :</dt>
+          <dd><input type="text" class="form-control w-50"></dd>
+  
+  <div class="w-50">
+    <dt class="text-warning" id="data-term">Your Email :</dt>
+    <dd class="d-flex input-group"><input type="email" class="form-control" width="50" >
+      <span class="input-group-text">@gmail.com</span>
+    </dd>
+  </div>
+  
+          <dt class="text-warning" id="data-term">Your Comments : </dt>
+          <dd><textarea name="" id="" cols="50" rows="5" class="rounded rounded-end-5"></textarea></dd>
+  
+          <button class="btn btn-success">Submit</button>
+          <button type="reset" class="btn btn-danger">Clear</button>
+         </form>
+        </div>
+  
+        <h6 class="text-white text-center" id="copy">&copy; Copyright 2023 - Rajat Dawadi <h5>
+      </div>
+</body>
+</html>

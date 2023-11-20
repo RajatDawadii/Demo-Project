@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body{
+            background-color: rgb(240, 233, 233);
+        }
+    </style>
+</head>
+<body>
+   
+
+
+    <div class="d-flex justify-content-center mt-5" id="signin-container" style="height:400px;">
+        <div>
+            <h3 class="text-secondary">Login to your Account</h3> 
+           <div class="mb-2">
+              <form>
+                <label class="form-label" for="userName">Email Address</label>
+                <div class="input-group">
+                  <span class="bi bi-person input-group-text" ></span>
+                  <input type="text" name="userName" class="form-control">
+                  <span class="input-group-text">@gmail.com</span>
+                  <span class="bi bi-star input-group-text text-danger"></span>
+           </div>
+          </div>
+  
+          <div class="mb-2">
+              <label class="form-label" for="password">Password</label>
+             <div class="input-group">
+              <span class="bi bi-key-fill input-group-text"></span>
+              <input type="password" name="password" class="form-control">
+              <span class="bi bi-star input-group-text text-danger"></span>
+             </div>
+             
+           </div>
+
+           <div class="mb-2">
+            <label class="form-label" for="password">New Password</label>
+           <div class="input-group">
+            <span class="bi bi-key-fill input-group-text"></span>
+            <input type="password" name="password" class="form-control">
+            <span class="bi bi-star input-group-text text-danger"></span>
+           </div>
+           
+         </div>
+           <button class="btn btn-warning text-white">
+          <a href="signup.html" class="text-white text-decoration-none">
+            <span class=" bi bi-person-add"></span>Sign up
+          </a>
+           </button>
+
+           <button class="btn btn-primary text-white">
+            <a href="signin.html" class="text-white text-decoration-none">
+              <span class=" bi bi-person-add"></span>Sign in
+            </a>
+             </button>
+
+             <button class="btn btn-danger">
+                <span class="bi bi-key-fill"></span> Change Password
+             </button>
+        </form>
+          
+           </div>
+           </div>
+               
+
+           <div class="footer bg-dark">
+            <h1 class="text-center text-secondary">Naresh IT and Technologies</h1>
+            <div class="row">
+                <div class="col-4 mt-5 ms-3">
+                  <h4 class="text-white">Our Social Media</h4>
+      
+                 <div class="mt-4 text-info infos">
+                  <span class="bi bi-facebook"></span>
+                  <a href="www.facebook.com" class="social-link text-decoration-none text-info" >Facebook</a>
+                 </div>
+             
+                  <div class="mt-2 text-info infos">
+                    <span class="bi bi-mailbox-flag"></span>
+                  <a href="www.gmail.com" class="social-link text-decoration-none text-info"> Gmail</a>
+                  </div>
+      
+                  <div class="mt-2 text-info infos">
+                    <span class="bi bi-twitter"></span>
+                  <a href="www.facebook.com" class="social-link text-decoration-none text-info" >Twitter</a>
+                  </div>
+                </div>
+      
+                <div class="col-4 mt-5">
+                  <h4 class="text-white">Navigate</h4>
+                    <div class="mt-4 infos">
+                      <span class="bi bi-house text-decoration-none text-info"></span>
+                      <a href="index.html" class="text-decoration-none text-info">Home</a>
+                    </div>
+      
+                    <div class="mt-2">
+                      <span class="bi bi-question-circle text-decoration-none text-info"></span>
+                      <a href="about.html" class="text-decoration-none text-info" id="infos">About</a>
+                    </div>
+      
+                    <div class="mt-2 infos">
+                      <span class="bi bi-info-square text-decoration-none text-info"></span>
+                      <a href="service.html" class="text-decoration-none text-info">Service</a>
+                    </div>
+      
+                    
+                    <div class="mt-2 infos">
+                      <span class="bi bi-telephone text-decoration-none text-info"></span>
+                      <a href="contact.html" class="text-decoration-none text-info">Contact us</a>
+                    </div>
+                </div>
+                  
+                <div class="col-3">
+                  <h4 class="text-white mt-5">More Information</h4>
+                  <div class="mt-4">
+                    <p class="text-info">Name : Naresh Yadav</p>
+                  </div>
+      
+                  <div class="mt-2">
+                    <p class="text-info">Email : narestit@gmail.com</p>
+                  </div>
+      
+                  <div class="mt-2">
+                    <p class="text-info">Phone : +9779812345678</p>
+                  </div>
+                </div>
+      
+            </div>
+      
+            <div class="review-form text-white ms-5 mt-5">
+              <h3 class="text-light">Feedback</h3>
+             <form>
+              <dt class="text-warning" id="data-term">Your Name :</dt>
+              <dd><input type="text" class="form-control w-50"></dd>
+      
+      <div class="w-50">
+        <dt class="text-warning" id="data-term">Your Email :</dt>
+        <dd class="d-flex input-group"><input type="email" class="form-control" width="50" >
+          <span class="input-group-text">@gmail.com</span>
+        </dd>
+      </div>
+      
+              <dt class="text-warning" id="data-term">Your Comments : </dt>
+              <dd><textarea name="" id="" cols="50" rows="5" class="rounded rounded-end-5"></textarea></dd>
+      
+              <button class="btn btn-success">Submit</button>
+              <button type="reset" class="btn btn-danger">Clear</button>
+             </form>
+            </div>
+      
+            <h6 class="text-white text-center" id="copy">&copy; Copyright 2023 - Rajat Dawadi <h5>
+          </div>
+</body>
+</html>
